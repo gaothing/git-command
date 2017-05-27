@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>使用命令行和github交互</title>
+		<meta name="Description" content="使用命令行和github交互" />
+		<meta name="Keywords" content="git,github交互" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			list-style: none;
+		}
+		
+		html {
+			font-size: 100px;
+		}
+		
+		body {
+			font-size: 16px;
+		}
+		
+		@media only screen and (min-width: 320px) {
+			html {
+				font-size: 42.66667px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 360px) {
+			html {
+				font-size: 48px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 375px) {
+			html {
+				font-size: 50px;
+			}
+			.con{
+				padding: 0.4rem;
+				width: 90%;
+					margin: 0;
+			}
+		}
+		
+		@media only screen and (min-width: 384px) {
+			html {
+				font-size: 51.2px;
+			}
+			.con{
+				padding: 0.4rem;
+				margin: 0;
+				width: 90%;
+			}
+		}
+		
+		@media only screen and (min-width: 412px) {
+			html {
+				font-size: 54.93333px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 414px) {
+			html {
+				font-size: 55.2px;
+			}
+		}
+		
+		@media only screen and (min-width: 768px) {
+			html {
+				font-size: 102.4px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 800px) {
+			html {
+				font-size: 106.66667px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 1024px) {
+			html {
+				font-size: 136.53333px;
+			}
+			.con{
+				padding: 0.4rem;
+			}
+		}
+		
+		@media only screen and (min-width: 1024px) {
+			html {
+				font-size: 136.53333px;
+			}
+			
+		}
+		
+		body {
+			background: #FFFFFF;
+			font-family: "微软雅黑";
+		}
+	</style>
+
+	<body>
+		<div class="con">
+			<h1>使用命令行和github交互</h1>
+			<hr />
+			<h2>全局配置</h2>
+			<div class="back">
+				<p>git config --global user.name "gao"</p>
+				<p>git config --global user.email "744989745@qq.com"</p>
+				<p>git config --global push.default simple</p>
+			</div>
+			<h2>clone一个已有的仓库做开发</h2>
+			<div class="back">
+				<p>git clone https://github.com/nate-river/bird.git</p>
+				<p>git --help</p>
+				<p>git status</p>
+				<p>git add *</p>
+				<p>git status</p>
+				<p>git commit -m 'test cli'/p>
+					<p>git push</p>
+					<div>git push 会要求用户名和密码</div>
+			</div>
+			<h2>管理分支</h2>
+			<div class="back">
+				<p>git branch gh-pages</p>
+				<p>git checkout gh-pages</p>
+				<p>git merge master</p>
+				<p>git push --set-upstream origin gh-pages</p>
+
+				<div>注意 多使用git status 查看自己目前所在的分支</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

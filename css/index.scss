@@ -1,0 +1,30 @@
+h1{
+    padding:  0.2rem;
+    font-size: 0.4rem;
+}
+h2{
+   padding: 0.2rem;
+}
+.back{
+    width: 100%;
+    background: #eee;
+    line-height: 0.4rem;
+    width: 8rem;
+    border-radius: 6px;
+    overflow: hidden;
+    p{
+        font-size: 0.16rem;
+        padding: 0 0.2rem;
+        color: #888;
+    }
+    div{
+        background: #e1e1e1;
+        margin-top: 0.1rem;
+        padding: 0.1rem;
+    }
+}
+.con{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: .2rem;
+}
